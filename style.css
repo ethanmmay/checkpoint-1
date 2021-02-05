@@ -9,6 +9,53 @@
     background-color: var(--mint);
 }
 
+.bg-gray {
+    background-color: #8F8E98;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.border-mint {
+    border: 3px solid var(--mint);
+}
+
+.stretcher {
+    height: 8rem;
+}
+
+.card {
+    box-shadow: 2px 2px 6px var(--gray-50);
+}
+
+.card p {
+    font-size: 0.8rem;
+}
+
+@media (min-width: 1px) and (max-width: 500px) {
+    .bg-gray {
+        font-size: 0.6rem;
+    }
+    .fa-2x {
+        font-size: 1.5rem !important;
+    }
+    .card {
+        position: relative !important;
+    }
+    .font-huge {
+        font-size: 1.25rem !important;
+    }
+    .stretcher {
+        height: 0;
+    }
+}
+
+@media (min-width: 501px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
 body {
     font-family: 'Noto Sans SC', sans-serif;
     height: 300vh;
@@ -71,6 +118,10 @@ label {
     font-size: 10pt;
 }
 
+.font-huge {
+    font-size: 2.5rem;
+}
+
 .btn-mint-transparent:hover {
     background-color: var(--mint);
     color: white;
@@ -82,7 +133,14 @@ label {
     padding-left: 1rem;
 }
 
+.transparent-card-2 {
+    color: white;
+    border-left: 1rem solid black;
+    padding-left: 1rem;
+}
+
 .bg-img {
-    background-image: url(https://uconn-today-universityofconn.netdna-ssl.com/wp-content/uploads/2019/06/GettyImages-614526398-1024x683.jpg);
+    background-image: url(watching_tv.jpg);
     background-size: cover;
 }
+
