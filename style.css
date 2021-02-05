@@ -1,0 +1,88 @@
+:root {
+    --mint: #07AB80;
+    --gray-90:rgba(128, 128, 128, 0.90);
+    --gray-50: rgba(128, 128, 128, 0.5);
+    --gray-25: rgba(201, 201, 201, 0.25);
+}
+
+.bg-mint {
+    background-color: var(--mint);
+}
+
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    height: 300vh;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #c5c5c5;
+}
+
+input {
+    border: 1px solid var(--gray-50);
+    border-radius: .25rem;
+    padding-left: 1rem;
+    color: black;
+}
+
+input::placeholder {
+    color: var(--gray-90);
+}
+
+input:hover {
+    border: 1px solid var(--mint);
+}
+
+input:focus {
+    border: 2px solid var(--mint);
+}
+
+.text-mint {
+    color: var(--mint);
+}
+
+.text-gray-90 {
+    color: var(--gray-90);
+}
+
+label {
+    font-size: 10pt;
+    color: var(--gray-90);
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.btn-mint-transparent {
+    background-color: var(--gray-25);
+    color: var(--mint);
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 10pt;
+}
+
+.btn-mint-transparent:hover {
+    background-color: var(--mint);
+    color: white;
+}
+
+.transparent-card-1 {
+    color: white;
+    border-left: 1rem solid var(--mint);
+    padding-left: 1rem;
+}
+
+.bg-img {
+    background-image: url(https://uconn-today-universityofconn.netdna-ssl.com/wp-content/uploads/2019/06/GettyImages-614526398-1024x683.jpg);
+    background-size: cover;
+}
